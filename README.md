@@ -7,7 +7,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-### Spotify Playing 🎧
+### Spotify Now Playing 🎧
 [<img src="https://spotify-voducthang16.vercel.app/api/spotify.py" alt="GB Spotify Playing" width="350" />](https://open.spotify.com/user/dor4r5m931sjp5rd8w7gb3iff)
 
 ### Connect with me:
