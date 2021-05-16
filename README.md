@@ -9,6 +9,7 @@
 
 ### Spotify Now Playing 🎧
 [<img src="https://spotifyv2.vercel.app/api/spotify.py" alt="GB Spotify Playing" width="350" />](https://open.spotify.com/user/p9jfubpnhgtylno8k5fj64vqm)
+[![Spotify](https://spotifyv2-diz2zxe0y-voducthang16.vercel.app/api/spotify)](https://open.spotify.com/user/p9jfubpnhgtylno8k5fj64vqm)
 
 ### Connect with me:
 
