@@ -8,7 +8,7 @@
 - 📫 How to reach me ...
 
 ### Spotify Now Playing 🎧
-[![Spotify](https://spotifyv2-diz2zxe0y-voducthang16.vercel.app/api/spotify)](https://open.spotify.com/user/p9jfubpnhgtylno8k5fj64vqm)
+[![Spotify](https://spotifyv2-voducthang16.vercel.app/api/spotify.py)](https://open.spotify.com/user/p9jfubpnhgtylno8k5fj64vqm)
 
 
 ### Connect with me:
