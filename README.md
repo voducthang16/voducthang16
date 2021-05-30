@@ -1,4 +1,4 @@
-### Hi there, I'm Vo Duc Thang - aka [GB](https://github.com/voducthang16) 🌸
+### Hi there, I'm Vo Duc Thang - aka [GB](https://github.com/voducthang16) 🌸🌼
 
 ## I'm a Student and Developer
 
