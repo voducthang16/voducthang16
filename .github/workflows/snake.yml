@@ -1,13 +1,26 @@
 name: Generate Snake
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 */12 * * *"
+  # Chạy tự động mỗi 12 giờ
+  schedule:
+    - cron: "0 */12 * * *" 
+  
+  # Cho phép chạy thủ công (bấm nút Run workflow)
   workflow_dispatch:
+  
+  # Chạy mỗi khi push code lên main (để test ngay)
+  push:
+    branches:
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # 👇 QUAN TRỌNG: Cấp quyền ghi để push branch output
+    permissions: 
+      contents: write
+      
     steps:
       - uses: Platane/snk@v3
         with:
@@ -15,6 +28,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
