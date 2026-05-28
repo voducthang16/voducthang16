@@ -2,36 +2,19 @@
 <div align="center">
   <h1>👋 Hi, I'm Vo Duc Thang</h1>
   <img src="https://img.shields.io/badge/aka-TK-61dafb?style=flat-square&labelColor=20232A" alt="aka TK" />
-  <p>Software Engineer • Front-End Developer • Music Enthusiast</p>
+  <p>Software Engineer · Front-End Developer · Music Enthusiast</p>
+  <p>
+    Passionate about building clean, performant UIs with React & TypeScript.<br/>
+    Always learning, always shipping. 🚀
+  </p>
+  <img src="https://komarev.com/ghpvc/?username=voducthang16&style=flat-square&color=61dafb&label=Profile+Views" alt="Profile Views" />
 </div>
 
 <br>
 
-<!-- Main Layout -->
+<!-- Activity Graph -->
 <div align="center">
-
-  <!-- Spotify Widget (Featured Top) -->
-  <a href="https://github.com/voducthang16/spotify-github-profile">
-    <img src="https://spotify-github-profile-puce.vercel.app/api/view?uid=31jlhrnenvpn5l356cbzq3mmybau&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&profanity=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify Now Playing" />
-  </a>
-
-  <br><br>
-
-  <!-- Stats Row -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=voducthang16&show_icons=true&theme=radical&hide_border=true&bg_color=20232A&title_color=F7F7F7&icon_color=61DAFB" height="180" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=voducthang16&layout=compact&theme=radical&hide_border=true&bg_color=20232A&title_color=F7F7F7" height="180" alt="Top Languages" />
-
-  <br><br>
-
-  <!-- Streak Stats -->
-  <img src="https://nirzak-streak-stats.vercel.app/?user=voducthang16&theme=radical&hide_border=true&background=20232A" width="100%" alt="GitHub Streak" />
-
-  <br><br>
-
-  <!-- Tech Stack -->
-  <img src="https://skillicons.dev/icons?i=js,ts,react,vite,tailwindcss,nextjs,nodejs,python,git,github,vscode&perline=11&theme=dark" alt="Tech Stack" />
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=voducthang16&theme=react-dark&hide_border=true&bg_color=20232A&color=61DAFB&line=61DAFB&point=ffffff&area=true" width="100%" alt="Activity Graph" />
 </div>
 
 <br>
