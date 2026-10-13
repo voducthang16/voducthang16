@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Profile Activity
 
 on:
   # Chạy tự động mỗi 12 giờ
@@ -12,6 +12,10 @@ on:
   push:
     branches:
     - main
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -29,6 +33,14 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: theme=react-dark&hide_border=true&bg_color=20232A&color=61DAFB&line=61DAFB&point=ffffff&area=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

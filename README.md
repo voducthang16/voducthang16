@@ -14,7 +14,7 @@
 
 <!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=voducthang16&theme=react-dark&hide_border=true&bg_color=20232A&color=61DAFB&line=61DAFB&point=ffffff&area=true" width="100%" alt="Activity Graph" />
+  <img src="https://raw.githubusercontent.com/voducthang16/voducthang16/output/activity-graph.svg" width="100%" alt="Activity Graph" />
 </div>
 
 <br>
