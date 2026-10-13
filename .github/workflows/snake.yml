@@ -26,13 +26,6 @@ jobs:
       contents: write
       
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
       - name: Generate activity graph
         uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1
         with:
@@ -41,6 +34,13 @@ jobs:
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
